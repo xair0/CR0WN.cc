@@ -33,9 +33,9 @@ local CROWN_SETTINGS = gui.Tab(gui.Reference("Settings"), "CROWN.tab", "CR0WN.cc
 local CROWN_UPDATER_GBOX = gui.Groupbox(CROWN_TAB, "Updater", 10, 10, 250, 0)
 local CROWN_UPDATER_CURRENTVERSION = gui.Text(CROWN_UPDATER_GBOX, "CR0WN.cc™ v" .. CURRENTVERSION)
 if LATESTVERSION ~= CURRENTVERSION then
-    local CROWN_UPDATER_LATESTVERSION = gui.Text(CROWN_UPDATER_GBOX, "Version available: CR0WN.cc™ v" .. LATESTVERSION)
+	local CROWN_UPDATER_LATESTVERSION = gui.Text(CROWN_UPDATER_GBOX, "You are using lastest version available")
 else
-	local CROWN_UPDATER_LATESTVERSION = gui.Text(CROWN_UPDATER_GBOX, "You are using lastest version of CR0WN.cc™")
+	local CROWN_UPDATER_LATESTVERSION = gui.Text(CROWN_UPDATER_GBOX, "Version available: CR0WN.cc™ v" .. LATESTVERSION)
 end
 if LATESTVERSION ~= nil then
     
