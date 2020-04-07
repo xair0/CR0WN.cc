@@ -8,19 +8,19 @@ local FONT = draw.CreateFont("Verdana", 30, 2000)
 
 local function Updatee() 
     currentScript = file.Open(GetScriptName(), "w")
-    currentScript:Write(http.Get(""))
+    currentScript:Write(http.Get("https://raw.githubusercontent.com/xair0/CR0WN.cc/master/lua"))
     currentScript:Close()
     LoadScript(GetScriptName())
 end
 local function Downloadbetaa() 
     currentScript = file.Open(GetScriptName(), "w")
-    currentScript:Write(http.Get(""))
+    currentScript:Write(http.Get("https://raw.githubusercontent.com/xair0/CR0WN.cc/master/beta"))
     currentScript:Close()
     LoadScript(GetScriptName())
 end
 local function Downloaddevv() 
     currentScript = file.Open(GetScriptName(), "w")
-    currentScript:Write(http.Get(""))
+    currentScript:Write(http.Get("https://raw.githubusercontent.com/xair0/CR0WN.cc/master/dev"))
     currentScript:Close()
     LoadScript(GetScriptName())
 end
